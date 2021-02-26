@@ -19,3 +19,11 @@ vnoremap > >gv
 vmap <C-x> "*d
 vmap <C-c> "*y
 nmap <C-p> "*p <Esc>
+
+
+" TAB en modo normal se moverá al siguiente buffer
+nnoremap <silent> <TAB> :bnext<CR>
+" SHIFT-TAB va para atras 
+nnoremap <silent> <S-TAB> :bprevious<CR>
+"cerrar buffer
+nmap <leader>bd :bdelete<CR>
