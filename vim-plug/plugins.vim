@@ -5,6 +5,7 @@ Plug 'tomasiser/vim-code-dark'
 Plug 'sonph/onehalf', { 'rtp': 'vim'  }
 Plug 'dracula/vim', { 'as': 'dracula'  }
 Plug 'arcticicestudio/nord-vim'
+Plug 'gosukiwi/vim-atom-dark'
 
 " Iconos
 Plug 'ryanoasis/vim-devicons'
@@ -32,6 +33,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Cerrar los pares () [] {} '' 
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
+
+" Colorizer
+Plug 'norcalli/nvim-colorizer.lua'
 
 "FZF
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }

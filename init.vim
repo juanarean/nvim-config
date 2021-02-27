@@ -21,5 +21,5 @@ source C:/Users/User/AppData/Local/nvim/plug-conf/airline.vim
 source C:/Users/User/AppData/Local/nvim/plug-conf/easymotion.vim
 "--------------------------------Plugins Config--------------------------------------------
 " --Seleccion de Tema--
-colorscheme dracula
+colorscheme atom-dark
 
