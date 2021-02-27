@@ -19,14 +19,14 @@
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
   "explorer.filename.colored.enable": true,
-  "explorer.keyMappings": {
-    "s": "open:split",
+  "explorer.keyMappings.global": {
+    "s": "open:vsplit",
     "mm": "rename",
     "mc": "copyFile",
     "C": "copyFile",
     "md": "delete",
     "D": "delete",
-    "ma": "addFile",
-    "mA": "addDirectory"
+    "af": "addFile",
+    "ad": "addDirectory"
   }
 }

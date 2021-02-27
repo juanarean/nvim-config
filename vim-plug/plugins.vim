@@ -8,9 +8,13 @@ Plug 'arcticicestudio/nord-vim'
 
 " Iconos
 Plug 'ryanoasis/vim-devicons'
+Plug 'kyazdani42/nvim-web-devicons'
 
 "IDE
 Plug 'easymotion/vim-easymotion'
+
+" Start Screen
+Plug 'mhinz/vim-startify'
 
 "Navegar con C-h C-l C-j C-k
 Plug 'christoomey/vim-tmux-navigator'
