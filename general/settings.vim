@@ -18,7 +18,7 @@ set cursorline
 set laststatus=2
 set noshowmode
 set ttimeoutlen=50
-" set guifont=ProFont\ for\ Powerline
+set guifont=JetBrainsMono\ NF\ Font
 
 if exists('+termguicolors')
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
