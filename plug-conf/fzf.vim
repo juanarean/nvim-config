@@ -15,20 +15,20 @@ let g:fzf_layout = {'up':'~90%', 'window': { 'width': 0.8, 'height': 0.8,'yoffse
 "-g '!{node_modules,.git}'
 
 " Customize fzf colors to match your color scheme
-let g:fzf_colors =
- \ { 'fg':      ['fg', 'Normal'],
-   \ 'bg':      ['bg', 'Normal'],
-   \ 'hl':      ['fg', 'Comment'],
-   \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
-   \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
-   \ 'hl+':     ['fg', 'Statement'],
-   \ 'info':    ['fg', 'PreProc'],
-   \ 'border':  ['fg', 'Ignore'],
-   \ 'prompt':  ['fg', 'Conditional'],
-   \ 'pointer': ['fg', 'Exception'],
-   \ 'marker':  ['fg', 'Keyword'],
-   \ 'spinner': ['fg', 'Label'],
-   \ 'header':  ['fg', 'Comment'] }
+" let g:fzf_colors =
+"  \ { 'fg':      ['fg', 'Normal'],
+"    \ 'bg':      ['bg', 'Normal'],
+"    \ 'hl':      ['fg', 'Comment'],
+"    \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+"    \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+"    \ 'hl+':     ['fg', 'Statement'],
+"    \ 'info':    ['fg', 'PreProc'],
+"    \ 'border':  ['fg', 'Ignore'],
+"    \ 'prompt':  ['fg', 'Conditional'],
+"    \ 'pointer': ['fg', 'Exception'],
+"    \ 'marker':  ['fg', 'Keyword'],
+"    \ 'spinner': ['fg', 'Label'],
+"    \ 'header':  ['fg', 'Comment'] }
 
 "Get Files
 " command! -bang -nargs=? -complete=dir Files
@@ -69,3 +69,4 @@ let g:fzf_colors =
 nmap <leader>gs  :CocSearch
 nmap <leader>fs :FZF<CR>
 nmap <leader>rg :Rg<CR>
+nnoremap <leader>gb :GBranches<CR>
