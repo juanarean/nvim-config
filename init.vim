@@ -15,11 +15,12 @@ source C:/Users/User/AppData/Local/nvim/general/commands.vim
 source C:/Users/User/AppData/Local/nvim/vim-plug/plugins.vim
 source C:/Users/User/AppData/Local/nvim/plugins/plug-config.vim
 
+source C:/Users/User/AppData/Local/nvim/plug-conf/start-screen.vim
 source C:/Users/User/AppData/Local/nvim/plug-conf/coc.vim
 source C:/Users/User/AppData/Local/nvim/plug-conf/fzf.vim
 source C:/Users/User/AppData/Local/nvim/plug-conf/airline.vim
 source C:/Users/User/AppData/Local/nvim/plug-conf/easymotion.vim
 "--------------------------------Plugins Config--------------------------------------------
 " --Seleccion de Tema--
-colorscheme atom-dark
+colorscheme dracula
 

@@ -40,7 +40,7 @@ Plug 'norcalli/nvim-colorizer.lua'
 "FZF
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim',
-Plug 'sbdchd/neoformat'
+Plug 'stsewd/fzf-checkout.vim'
 
 " Typescript
 Plug 'leafgarland/typescript-vim'
