@@ -6,6 +6,8 @@ Plug 'sonph/onehalf', { 'rtp': 'vim'  }
 Plug 'dracula/vim', { 'as': 'dracula'  }
 Plug 'arcticicestudio/nord-vim'
 Plug 'gosukiwi/vim-atom-dark'
+Plug 'morhetz/gruvbox'
+Plug 'tomasr/molokai'
 
 " Iconos
 Plug 'ryanoasis/vim-devicons'
@@ -17,12 +19,21 @@ Plug 'easymotion/vim-easymotion'
 " Start Screen
 Plug 'mhinz/vim-startify'
 
-"Navegar con C-h C-l C-j C-k
+" Better Comments
+Plug 'tpope/vim-commentary'
+
+" Navegar con C-h C-l C-j C-k
 Plug 'christoomey/vim-tmux-navigator'
 
 "Airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
+" mejor barra de tabs
+" Plug 'romgrk/barbar.nvim'
+
+" galaxyline
+" Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
 
 " Fugitive, es para manejar git
 Plug 'tpope/vim-fugitive'
